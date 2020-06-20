@@ -1,0 +1,59 @@
+html{
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 1366px;
+    font-family: Noto Sans TC;
+}
+.nav{
+    background-color: #EAEAEA;
+    width: 1366px;
+    height: 93px;
+}
+.nav_logo{
+    position: absolute;
+    top: 25px;
+    left: 98px;
+}
+.nav_link{
+    position: absolute;
+    top: 37px;
+    left: 400px;
+    font-size: 18px;
+    color: #707070;
+}
+.elec_nav{
+    position: absolute;
+    top: 93px;
+    width: 1366px;
+    height: 71px;
+    background-color: #84CEDA;
+}
+.elec{
+    position: absolute;
+    top: 14px;
+    left: 240px;
+}
+.elec_link{
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    top: 10px;
+    left: 420px;
+}
+.content_up_link{
+    position: absolute;
+    top: 163px;
+    left: 252px;
+    font-weight: 300;
+    color: #707070;
+    letter-spacing: 1px;
+}
+.content{
+    position: absolute;
+    top: 215px;
+    left: 252px;
+    border: 1px #707070 solid;
+    width: 612px;
+    height: 1793px;
+}
