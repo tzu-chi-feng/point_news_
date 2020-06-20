@@ -1,193 +1,206 @@
-html{
-    position: relative;
-    margin: auto;
-    padding: 0;
-    width: 1366px;
-    font-family: Noto Sans TC;
+@media (min-width:400px) {
+    html {
+        position: relative;
+        margin: auto;
+        padding: 0;
+        width: 1366px;
+        font-family: Noto Sans TC;
+    }
+    .nav {
+        background-color: #EAEAEA;
+        width: 1366px;
+        height: 93px;
+    }
+    .nav_logo {
+        position: absolute;
+        top: 25px;
+        left: 98px;
+    }
+    .nav_link {
+        position: absolute;
+        top: 37px;
+        left: 400px;
+        font-size: 18px;
+        color: #707070;
+    }
+    .elec_nav {
+        position: absolute;
+        top: 93px;
+        width: 1366px;
+        height: 71px;
+        background-color: #84CEDA;
+    }
+    .elec {
+        position: absolute;
+        top: 14px;
+        left: 240px;
+    }
+    .elec_link {
+        position: absolute;
+        color: white;
+        font-size: 16px;
+        top: 10px;
+        left: 420px;
+    }
+    .content_up_link {
+        position: absolute;
+        top: 163px;
+        left: 252px;
+        font-weight: 300;
+        color: #707070;
+        letter-spacing: 1px;
+    }
+    .content {
+        position: absolute;
+        top: 215px;
+        left: 252px;
+        border: 1px #707070 solid;
+        width: 612px;
+        height: 1793px;
+    }
+    .jia_dien {
+        background-color: #035E80;
+        color: white;
+        width: 612px;
+        height: 29px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding-left: 5px;
+        line-height: 29px;
+    }
+    .life_elec {
+        color: white;
+        background-color: #339BFF;
+        text-align: center;
+        line-height: 27px;
+        width: 88px;
+        height: 27px;
+        position: absolute;
+        top: 22px;
+        left: 18px;
+    }
+    .title {
+        position: absolute;
+        top: 73px;
+        font-size: 23px;
+        line-height: 45px;
+    }
+    .yeebaifan {
+        position: absolute;
+        top: 173px;
+        right: 10px;
+    }
+    .iconnn {
+        position: absolute;
+        top: 220px;
+        left: 0px;
+        width: 612px;
+        height: 25px;
+        background-color: #EFEFEF;
+    }
+    .fb_icon {
+        position: absolute;
+        left: 10px;
+        top: 5px;
+    }
+    .ig_icon {
+        position: absolute;
+        left: 32px;
+        top: 5px;
+    }
+    .good {
+        color: white;
+        background-color: #339BFF;
+        text-align: right;
+        font-weight: 200;
+        padding-right: 3px;
+        line-height: 16px;
+        width: 66px;
+        height: 16px;
+        font-size: 10px;
+        position: absolute;
+        top: -5px;
+        left: 60px;
+        border-radius: 2px;
+    }
+    .share {
+        color: white;
+        background-color: #339BFF;
+        text-align: right;
+        font-weight: 200;
+        padding-right: 3px;
+        line-height: 16px;
+        width: 26px;
+        height: 16px;
+        font-size: 10px;
+        position: absolute;
+        top: -5px;
+        left: 135px;
+        border-radius: 2px;
+    }
+    .pic_1 {
+        width: 540px;
+        height: 304px;
+        position: absolute;
+        top: 266px;
+        left: 36px;
+        background-color: #E6E6E6;
+        border-radius: 5px;
+    }
+    .debug_bk {
+        position: absolute;
+        top: 22px;
+        left: 17px;
+    }
+    .pic_words {
+        position: absolute;
+        top: 260px;
+        left: 18px;
+        font-size: 15px;
+        color: #6A6A6A;
+    }
+    .para_1 {
+        position: absolute;
+        left: 36px;
+        width: 540px;
+        top: 570px;
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    .pic_2 {
+        width: 330px;
+        height: 260px;
+        position: absolute;
+        top: 750px;
+        left: 36px;
+        background-color: #E6E6E6;
+        border-radius: 5px;
+    }
+    .bug_pic {
+        position: absolute;
+        top: 10px;
+        left: 13px;
+    }
+    .pic_words2 {
+        position: absolute;
+        top: 218px;
+        left: 18px;
+        font-size: 13px;
+        color: #6A6A6A;
+    }
 }
-.nav{
-    background-color: #EAEAEA;
-    width: 1366px;
-    height: 93px;
-}
-.nav_logo{
-    position: absolute;
-    top: 25px;
-    left: 98px;
-}
-.nav_link{
-    position: absolute;
-    top: 37px;
-    left: 400px;
-    font-size: 18px;
-    color: #707070;
-}
-.elec_nav{
-    position: absolute;
-    top: 93px;
-    width: 1366px;
-    height: 71px;
-    background-color: #84CEDA;
-}
-.elec{
-    position: absolute;
-    top: 14px;
-    left: 240px;
-}
-.elec_link{
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    top: 10px;
-    left: 420px;
-}
-.content_up_link{
-    position: absolute;
-    top: 163px;
-    left: 252px;
-    font-weight: 300;
-    color: #707070;
-    letter-spacing: 1px;
-}
-.content{
-    position: absolute;
-    top: 215px;
-    left: 252px;
-    border: 1px #707070 solid;
-    width: 612px;
-    height: 1793px;
-}
-.jia_dien{
-    background-color: #035E80;
-    color: white;
-    width: 612px;
-    height: 29px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    padding-left: 5px;
-    line-height: 29px;
-}
-.life_elec{
-    color: white;
-    background-color: #339BFF;
-    text-align: center;
-    line-height: 27px;
-    width: 88px;
-    height: 27px;
-    position: absolute;
-    top: 22px;
-    left: 18px;
-}
-.title{
-    position: absolute;
-    top: 73px;
-    font-size: 23px;
-    line-height: 45px;
-}
-.yeebaifan{
-    position: absolute;
-    top: 173px;
-    right: 10px;
-}
-.iconnn{
-    position: absolute;
-    top: 220px;
-    left: 0px;
-    width: 612px;
-    height: 25px;
-    background-color: #EFEFEF;
-}
-.fb_icon{
-    position: absolute;
-    left: 10px;
-    top: 5px;
-}
-.ig_icon{
-    position: absolute;
-    left: 32px;
-    top: 5px;
-}
-.good{
-    color: white;
-    background-color: #339BFF;
-    text-align: right;
-    font-weight: 200;
-    padding-right: 3px;
-    line-height: 16px;
-    width: 66px;
-    height: 16px;
-    font-size: 10px;    
-    position: absolute;
-    top: -5px;
-    left: 60px;
-    border-radius: 2px;
-}
-.share{
-    color: white;
-    background-color: #339BFF;
-    text-align: right;
-    font-weight: 200;
-    padding-right: 3px;
-    line-height: 16px;
-    width: 26px;
-    height: 16px;
-    font-size: 10px;    
-    position: absolute;
-    top: -5px;
-    left: 135px;
-    border-radius: 2px;
-}
-.pic_1{
-    width: 540px;
-    height: 304px;
-    position: absolute;
-    top: 266px;
-    left: 36px;
-    background-color: #E6E6E6;
-    border-radius: 5px;
-}
-.debug_bk{
-    position: absolute;
-    top: 22px;
-    left: 17px;
-}
-.pic_words{
-    position: absolute;
-    top: 260px;
-    left: 18px;
-    font-size: 15px;
-    color: #6A6A6A;
 
-}
-.para_1{
-    position: absolute;
-    left: 36px;
-    width: 540px;
-    top: 570px;
-    font-size: 15px;
-    line-height: 30px;
-    letter-spacing: 1px;
-}
-.pic_2{
-    width: 330px;
-    height: 260px;
-    position: absolute;
-    top: 750px;
-    left: 36px;
-    background-color: #E6E6E6;
-    border-radius: 5px;
-}
-.bug_pic{
-    position: absolute;
-    top: 10px;
-    left: 13px;
-}
-.pic_words2{
-    position: absolute;
-    top: 218px;
-    left: 18px;
-    font-size: 13px;
-    color: #6A6A6A;
-
+@media (max-width: 576px){
+    html {
+        position: relative;
+        margin: auto;
+        padding: 0;
+        width: 1366px;
+        font-family: Noto Sans TC;
+        -ms-transform: scale(0.5, 0.5); /* IE 9 */ 
+     -webkit-transform: scale(0.5, 0.5); /* Safari */ 
+     transform: scale(0.5, 0.5);
+    }
 }
