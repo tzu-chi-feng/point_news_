@@ -199,8 +199,7 @@
         padding: 0;
         width: 1366px;
         font-family: Noto Sans TC;
-        -ms-transform: scale(0.5, 0.5); /* IE 9 */ 
-     -webkit-transform: scale(0.5, 0.5); /* Safari */ 
-     transform: scale(0.5, 0.5);
+        
+        transform: scale(0.3) translate(-115%, 0%);
     }
 }
