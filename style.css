@@ -1,4 +1,3 @@
-@media (min-width:400px) {
     html {
         position: relative;
         margin: auto;
@@ -56,12 +55,12 @@
         left: 252px;
         border: 1px #707070 solid;
         width: 612px;
-        height: 1793px;
+        height: 2140px;
     }
     .jia_dien {
         background-color: #035E80;
         color: white;
-        width: 612px;
+        width: 607px;
         height: 29px;
         position: absolute;
         top: 0px;
@@ -190,16 +189,459 @@
         font-size: 13px;
         color: #6A6A6A;
     }
+    .para_2{
+        position: absolute;
+        left: 36px;
+        width: 540px;
+        top: 1020px;
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    .para_3{
+        position: absolute;
+        left: 36px;
+        width: 540px;
+        top: 1160px;
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    .pic_3 {
+        width: 416px;
+        height: 327px;
+        position: absolute;
+        top: 1370px;
+        left: 36px;
+        background-color: #E6E6E6;
+        border-radius: 5px;
+    }
+    .debug_wh {
+        position: absolute;
+        top: 13px;
+        left: 16px;
+    }
+    .pic_words3 {
+        position: absolute;
+        top: 279px;
+        left: 18px;
+        font-size: 15px;
+        color: #6A6A6A;
+    }
+    .para_4{
+        position: absolute;
+        left: 36px;
+        width: 540px;
+        top: 1700px;
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    .para_5{
+        position: absolute;
+        left: 36px;
+        width: 540px;
+        top: 1900px;
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    .icon_bott {
+        position: absolute;
+        top: 2050px;
+        left: 0px;
+        width: 612px;
+        height: 50px;
+        background-color: #EFEFEF;
+    }
+    
+    .tag_1 {
+        color: white;
+        background-color: #339BFF;
+        text-align: center;
+        font-weight: 200;        
+        line-height: 25px;
+        width: 66px;
+        height: 25px;
+        font-size: 15px;
+        position: absolute;
+        top: -2px;
+        left: 60px;
+        border-radius: 2px;
+    }
+    .tag_2 {
+        color: white;
+        background-color: #339BFF;
+        text-align: center;
+        font-weight: 200;        
+        line-height: 25px;
+        width: 60px;
+        height: 25px;
+        font-size: 15px;
+        position: absolute;
+        top: -2px;
+        left: 133px;
+        border-radius: 2px;
+    }
+    .tag_3 {
+        color: white;
+        background-color: #339BFF;
+        text-align: center;
+        font-weight: 200;        
+        line-height: 25px;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        position: absolute;
+        top: -2px;
+        left: 200px;
+        border-radius: 2px;
+    }
+    .iconnn_b {
+        position: absolute;
+        top: 2110px;
+        left: 0px;
+        width: 612px;
+        height: 25px;
+    }
+    .fb_icon_b {
+        position: absolute;
+        left: 10px;
+        top: 5px;
+    }
+    .ig_icon_b {
+        position: absolute;
+        left: 32px;
+        top: 5px;
+    }
+    .good_b {
+        color: white;
+        background-color: #339BFF;
+        text-align: right;
+        font-weight: 200;
+        padding-right: 3px;
+        line-height: 16px;
+        width: 66px;
+        height: 16px;
+        font-size: 10px;
+        position: absolute;
+        top: -5px;
+        left: 60px;
+        border-radius: 2px;
+    }
+    .share_b {
+        color: white;
+        background-color: #339BFF;
+        text-align: right;
+        font-weight: 200;
+        padding-right: 3px;
+        line-height: 16px;
+        width: 26px;
+        height: 16px;
+        font-size: 10px;
+        position: absolute;
+        top: -5px;
+        left: 135px;
+        border-radius: 2px;
+    }
+    .related{
+        position: absolute;
+        top: 2400px;
+        left: 252px;
+        border: 1px #707070 solid;
+        width: 612px;
+        height: 290px;
+    }
+
+    .shan_kwan {
+        background-color: #035E80;
+        color: white;
+        width: 607px;
+        height: 29px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding-left: 5px;
+        line-height: 29px;
+    }
+.re_pic1{
+    position: absolute;
+    top: 40px;
+    left: 18px;
+}
+.re_title1{
+    position: absolute;
+    width: 400px;
+    top: 30px;
+    left: 198px;
+}
+.re_con1{
+    position: absolute;
+    top: 85px;
+    left: 198px;
+    font-size: 13px;
+    font-weight: 100;
+    color: #797979;
+}
+.re_pic2{
+    position: absolute;
+    top: 169px;
+    left: 18px;
+}
+.re_title2{
+    position: absolute;
+    top: 157px;
+    left: 198px;
+    width: 400px;
+}
+.re_con2{
+    position: absolute;
+    top: 212px;
+    left: 198px;
+    font-size: 13px;
+    font-weight: 100;
+    color: #797979;
+}
+.fb_comment {
+    position: absolute;
+        top: 2720px;
+        left: 252px;
+        width: 612px;
+        height: 561px;
+}
+.comm238{
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    color: #797979;
+    font-size: 18px;
+}
+.arrange{
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    color: #797979;
+    font-size: 18px;
+}
+.pho_1{
+    position: absolute;
+    top: 67px;
+    left: 0px;
+}
+.pho_2{
+    position: absolute;
+    top: 196px;
+    left: 0px;
+}
+.pho_3{
+    position: absolute;
+    top: 321px;
+    left: 109px;
+}
+.pho_4{
+    position: absolute;
+    top: 468px;
+    left: 0px;
+}
+.name1{
+    position: absolute;
+    top: 45px;
+    left: 93px;
+    color: #093889;
+    font-size: 18px;
+    font-weight: 500;
+}
+.name2{
+    position: absolute;
+    top: 174px;
+    left: 93px;
+    color: #093889;
+    font-size: 18px;
+    font-weight: 500;
+}
+.name3{
+    position: absolute;
+    top: 298px;
+    left: 201px;
+    color: #093889;
+    font-size: 18px;
+    font-weight: 500;
+}
+.name4{
+    position: absolute;
+    top: 445px;
+    left: 93px;
+    color: #093889;
+    font-size: 18px;
+    font-weight: 500;
+}
+.words1{
+    position: absolute;
+    top: 74px;
+    left: 93px;
+    color: #929090;
+    font-size: 15px;
+    width: 480px;
+    font-weight: 100;
+}
+.words2{
+    position: absolute;
+    top: 203px;
+    left: 93px;
+    color: #929090;
+    font-size: 15px;
+    width: 480px;
+    font-weight: 100;
+}
+.words3{
+    position: absolute;
+    top: 328px;
+    left: 201px;
+    color: #929090;
+    font-size: 15px;
+    width: 360px;
+    font-weight: 100;
+}
+.words4{
+    position: absolute;
+    top: 475px;
+    left: 93px;
+    color: #929090;
+    font-size: 15px;
+    width: 480px;
+    font-weight: 100;
+}
+.name_link{    
+    color: #093889;
+    font-size: 14px;
+    width: 480px;
+    font-weight: 100;
+}
+.com_g1{
+    position: absolute;
+    top: 126px;
+    left: 93px;
+    color: #929090;
+    font-size: 15px;
+    width: 480px;
+    font-weight: 100;
+}
+.com_g2{
+    position: absolute;
+    top: 228px;
+    left: 93px;
+    color: #929090;
+    font-size: 15px;
+    width: 480px;
+    font-weight: 100;
+}
+.com_g3{
+    position: absolute;
+    top: 355px;
+    left: 203px;
+    color: #929090;
+    font-size: 15px;
+    width: 480px;
+    font-weight: 100;
+}
+.com_g4{
+    position: absolute;
+    top: 506px;
+    left: 93px;
+    color: #929090;
+    font-size: 15px;
+    width: 480px;
+    font-weight: 100;
+}
+.footer{
+    position: absolute;
+    top: 3300px;
+    left: 0px;
+    background-color: #EAEAEA;
+    width: 1366px;
+    height: 103px;
+}
+.logo_foot{
+    width: 185px;
+    height: 41px;
+    position: absolute;
+    top: 19px;
+    left: 591px;
+}
+.foot_word{
+    position: absolute;
+    top: 55px;
+    left: 466px;
+    color: #929090;
+}
+.newer{
+    width: 231px;
+    height: 471px;
+    position: absolute;
+    top: 215px;
+    right: 246px;
+    border: 1px #707070 solid;
+    
+}
+.zwoi_shin {
+    background-color: #035E80;
+    color: white;
+    width: 226px;
+    height: 29px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 5px;
+    line-height: 29px;
+}
+.new_1{
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    width: 207px;
+    font-size: 17px;
+}
+.new_2{
+    position: absolute;
+    top: 106px;
+    left: 8px;
+    width: 207px;
+    font-size: 17px;
+}
+.new_3{
+    position: absolute;
+    top: 171px;
+    left: 8px;
+    width: 207px;
+    font-size: 17px;
+}
+.new_4{
+    position: absolute;
+    top: 263px;
+    left: 8px;
+    width: 207px;
+    font-size: 17px;
+}
+.new_5{
+    position: absolute;
+    top: 330px;
+    left: 8px;
+    width: 207px;
+    font-size: 17px;
+}
+.new_6{
+    position: absolute;
+    top: 394px;
+    left: 8px;
+    width: 207px;
+    font-size: 17px;
+}
+.point_fb{
+    position: absolute;
+    top: 718px;
+    right: 246px;
+    width: 231px;
+    height: 421px;
 }
 
-@media (max-width: 576px){
-    html {
-        position: relative;
-        margin: auto;
-        padding: 0;
-        width: 1366px;
-        font-family: Noto Sans TC;
-        
-        transform: scale(0.3) translate(-115%, 0%);
-    }
-}
+
